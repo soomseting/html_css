@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p {
+            border: 1px solid #777;
+            width: 300px;
+            height: 100px;
+            /* overflow - 컨텐츠 영역을 넘어갈 때 어떻게 처리할 거냐? 
+            visible - 보이게 함 (기본 값)
+            scroll - 컨텐츠에 내역이 아무것도 없더라도 스크롤 무조건 만듬
+            auto - 내용이 넘칠 때만 스크롤을 만듬
+            hidden - 내용이 넘치는 영역은 숨김
+            */
+            overflow: hidden;
+        }
+
+        div {
+            border: 1px solid #777;
+            width: 300px;
+            height: 100px;
+            /* 가로 스크롤 */
+            overflow-x: auto;
+            white-space: nowrap;/* 줄바꿈하지 않음 */
+        }
+    </style>
+
+</head>
+
+<body>
+    <!-- 블럭요소의 박스크기를 지정할 땐 height와 width 속성을 사용함 -->
+    <p>
+        옛날로 돌아가보면 사실 74 월드컵 네덜란드는 지금의 시선으로 보면 되게 형편없습니다.
+        보다가 계속 꺼버리고 결국엔 대부분의 경기들을 풀 타임 시청을 못하긴 했는데
+        (아리고 사키의 밀란까진 어떻게 됐는데 그 이전은 풀 타임 시청이 안되더라구요.
+        원래 다시 보기라는 거 자체를 안 좋아하긴 하는데 옛날 경기 다 보고나서
+        다시 보기는 정말 할 게 못된다는 걸 느끼고 그 후로 지나간 경기들이나 옛날 경기들은 안 찾아봅니다.)
+    </p>
+
+    <div>
+        옛날로 돌아가보면 사실 74 월드컵 네덜란드는 지금의 시선으로 보면 되게 형편없습니다.
+        보다가 계속 꺼버리고 결국엔 대부분의 경기들을 풀 타임 시청을 못하긴 했는데
+        (아리고 사키의 밀란까진 어떻게 됐는데 그 이전은 풀 타임 시청이 안되더라구요.
+        원래 다시 보기라는 거 자체를 안 좋아하긴 하는데 옛날 경기 다 보고나서
+        다시 보기는 정말 할 게 못된다는 걸 느끼고 그 후로 지나간 경기들이나 옛날 경기들은 안 찾아봅니다.)
+    </div>
+
+
+
+
+
+
+
+
+</body>
+
+</html>

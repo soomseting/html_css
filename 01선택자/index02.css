@@ -1,0 +1,3 @@
+@import url('common.css');
+/* css파일에서 다른 css파일 참조 */
+p{color:red;}

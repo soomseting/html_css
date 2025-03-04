@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .wrap {width: 100%;}
+        .container{width: 400px;margin: 0 auto;border: 1px solid #777; overflow: hidden;}
+        .a,.b,.c{border: 1px solid #777;}
+        .b{width: 100%; overflow: hidden;}
+        .b>div{width: 50%;float: left; border: 1px solid #777;box-sizing: border-box; padding: 20px;}
+        .c{float: left;width: 100%;}
+    </style>
+</head>
+
+<body>
+    <h3>과제</h3>
+
+    <div class="wrap">
+        <div class="container">
+            <div class="a">탑</div>
+            <div class="b">
+                <div>패딩 20px</div>
+                <div>패딩 20px</div>
+            </div>
+            <div class="c">
+                바텀
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* .wrap {} */
+        .header{
+            border: 1px solid #777;
+            width: 800px;
+            margin: 100px auto;
+            overflow: hidden;
+        }
+        .left{float: left;width: 50%;}
+        .right{float: right;border: 1px solid #777; width: 50%;box-sizing: border-box;}
+ 
+        .box1{width: 100%;float: left;padding-bottom: 50px;}
+
+        .box2{width: 100%;float: left;border: 1px solid #777;}
+        .box2 > p {width: 50%;}
+        .pl{float: left;}
+        .pr{float: right;text-align: right;}
+        
+        .box3{width: 100%;float: left;}
+        .box3>button{width: 50%;float: left;}
+    </style>
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="header">
+            <div class="left">사진</div>
+            <div class="right">
+                <div class="box1">
+                    제목: 패딩바텀<br>
+                    내용: ~~~
+                </div>
+                <div class="box2">
+                    <p class="pl">가격</p>
+                    <p class="pr">10000원</p>
+                </div>
+                <div class="box3">
+                    <button>장바구니</button>
+                    <button>구매하기</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

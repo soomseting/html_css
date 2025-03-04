@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .wrap {
+            width: 100%;
+        }
+
+        /* header */
+        .header {
+            background: #000;
+            width: 100%;
+            height: 60px;
+            line-height: 58px;
+            text-align: center;
+        }
+
+        .header ul li {
+            display: inline-block;
+            width: 60px;
+        }
+
+        .header>ul>li>a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .menu>li:hover{
+            border-bottom: 2px solid #fff;
+        }
+
+        /* slide */
+        .slide {
+            width: 100%;
+            height: 450px;
+            background-image: url(img/img1.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        /* content */
+        .content {
+            width: 1000px;
+            margin: 0 auto;            
+        }
+
+        .content h3 {
+
+            margin-top: 50px;
+        }
+
+        .contain {
+            border: 1px solid #777;
+            box-sizing: border-box;
+            padding: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="header">
+            <ul class="menu">
+                <li><a href="#">메뉴</a></li>
+                <li><a href="#">메뉴</a></li>
+                <li><a href="#">메뉴</a></li>
+                <li><a href="#">메뉴</a></li>
+            </ul>
+        </div>
+        <div class="slide">
+        </div>
+        <div class="content">
+            <h3>오늘의 발견</h3>
+            <div class="contain">
+                <p>본문내용...</p>
+                <p>본문내용...</p>
+                <p>본문내용...</p>
+                <p>본문내용...</p>
+                <p>본문내용...</p>
+                <p>본문내용...</p>
+                <p>본문내용...</p>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
