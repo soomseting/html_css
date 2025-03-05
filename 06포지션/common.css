@@ -1,0 +1,53 @@
+*{margin: 0; padding: 0;}
+ul,li {list-style:none;}
+a{text-decoration: none;}
+
+/* wrap */
+
+
+/* header */
+.header{width: 100%;height: 170px;overflow: hidden;position: fixed;z-index: 10;top: 0;background: #fff;}
+
+.top{overflow: hidden;padding: 15px; display: flex; justify-content: space-around; align-items: center;}
+.logo{overflow: hidden; float: left;line-height: 32px;}
+.top_menu{float: right;}
+.title{width: 400px; margin: 0 auto; text-align: center;}
+
+/* logo */
+.logo > div{float: left;}
+.logo1{width: 32px;height: 32px;background-image: url(img/logo.png);background-repeat: no-repeat;}
+.logo2{width: 32px;height: 32px;background-image: url(img/logo.png);background-repeat: no-repeat;background-position: -32px 0;}
+.logo3{width: 32px;height: 32px;background-image: url(img/logo.png);background-repeat: no-repeat;background-position: -64px 0;}
+.logo4{width: 32px;height: 32px;background-image: url(img/logo.png);background-repeat: no-repeat;background-position: -96px 0;}
+
+/* header_menu */
+.top_menu{float: right; font-size: 13px;}
+.top_menu p {float: left; padding: 0 10px;}
+
+
+/* menu */
+.menu{width: 100%;height: 80px;display: flex; justify-content: space-around; align-items: center;}
+.menu_box{overflow: hidden;  text-align: center;}
+.menu_box li{float: left; width: 110px; height: 80px;line-height: 80px;padding: 0 5px;}
+.menu_box li a{color: #000;}
+
+/* slide */
+.slide{position: relative; border-top: 3px solid red;width: 100%; height: 500px;margin-top: 170px;background-image: url(img/slide.jpg);background-repeat: no-repeat; background-size: cover;background-position: center;}
+
+.slide_title{color: #fff;position: absolute;top: 20%; left: 38%;}
+.fir_title{font-size: 50px; font-weight: 500;text-align: center;letter-spacing: 15px;}
+.sec_title{font-size: 30px; font-weight: 400; text-align: center;margin-top: 30px;}
+
+/* content */
+.content{width: 100%; height: 500px;}
+
+.dot_line{width: 100%;margin: 0 auto; text-align: center;line-height: 40px;font-weight: bold; font-size: 15px; letter-spacing: -1px;border-bottom: 3px dashed #ddd; }
+
+.section{width: 900px; overflow: hidden;margin: 0 auto;}
+.section div{float: left; padding: 25px; margin-top: 15px;}
+.section div p{text-align: center; color: #ddd; font-weight: bold;font-size: 20px;}
+
+/* footer */
+.footer{width: 100%; border-top: 2px solid #ddd;overflow: hidden; font-size: 14px; letter-spacing: -1px;padding: 10px 0;}
+.f1{float: left; font-weight: bold; padding-left: 15px;}
+.f2{float: right;padding-right: 20px;}

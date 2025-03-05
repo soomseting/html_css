@@ -1,0 +1,115 @@
+*{margin: 0; padding: 0;}
+ul,li,ol,dd,dl{list-style: none;}
+a{text-decoration: none;}
+img{max-width: 100%;height:auto;}
+
+/* 브라우저 사이즈 디자인 */
+@media(min-width: 767px){
+    #box{
+        width: 960px;
+        margin: 0 auto;
+        border: 1px solid #777;
+    }
+    #box .logo{
+        background-image: url(img/bg.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 300px;
+    }
+    #box .logo h3{
+        color: yellow;
+        padding: 20px;
+        font-size: 30px;
+    }
+
+    #box .gnb{
+        background: #c13333;
+    }
+    #box .gnb ul li{
+        display: inline;
+    }
+    #box .gnb ul li a{
+        color: #fff;
+        display: inline-block;
+        padding: 20px;
+        font-weight: 900;
+    }
+    #box .gnb ul li a:hover{
+        background-color: #903;
+    }
+    /*  */
+    #wrap{
+        overflow: hidden;
+    }
+    #wrap .left{
+        float: left;
+        width: 700px;
+        padding: 10px;
+    }
+    #wrap .right{
+        float: right;
+        width: 200px;
+        padding: 10px;
+        background: #e3e3e3;
+        height: 500px;
+    }
+    /*  */
+    #footer{
+        background-color: #333333;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+    }
+}
+
+/* 모바일 디자인 */
+@media(max-width:766px){
+    #box{
+        width: 100%;
+        margin: 0 auto;
+        border: 1px solid #777;
+    }
+    #box .logo{
+        background-image: url(img/bg.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 200px;
+    }
+    #box .logo h3{
+        color: yellow;
+        font-size: 30px;
+        padding: 20px;
+    }
+    .gnb ul li{
+        text-align: center;
+        display: block;
+        padding: 10px;
+        background: #c13333;
+    }
+    .gnb ul li a{
+        color: #fff;
+    }
+    .gnb ul li:hover{
+        background: #903;
+    }
+
+    #wrap{
+        padding: 20px;
+    }
+    .left{
+        
+    }
+    .left p{
+        margin-top: 30px;
+    }
+    .right{margin-top: 10px;}
+    .right img{ text-align: center;width: 100%;}
+    
+
+    #footer{
+        background: #333;
+        text-align: center;
+        color: #fff;
+        padding: 20px;
+    }
+}
