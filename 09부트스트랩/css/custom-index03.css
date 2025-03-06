@@ -1,0 +1,58 @@
+/* 동일한 클래스를 덮는 방법 or 사용자정의 클래스를 만들어서 주는방법 */
+/* 헤더부분 */
+.form-control {border-radius: 0;}
+.form-control:focus {border-color: #ccc; box-shadow: none;}
+.btn {border-radius: 0;}
+
+
+.navbar-inverse {background-color: #263238; border-color: #263238;}
+.navbar {border-radius: 0; margin-bottom: 0;}
+.navbar-brand {padding: 4px 15px;}
+.navbar-inverse .navbar-nav>li>a:focus, 
+.navbar-inverse .navbar-nav>li>a:hover {background-color: #304047;}
+/* 슬라이드 영역 */
+.carousel-control.left,
+.carousel-control.right {background-image: none;}
+
+/* 본문영역 */
+.prod-list {border: 1px solid #777; padding: 5px;}
+.prod-list > li[class*=col-] {padding: 5px;}
+.prod-link {border: 1px solid #777; display: block; text-align: center; position: relative;}
+
+.prod-link > .arrow{position: absolute; left: 10px; bottom: 10px; background-color: #e3e3e3; padding: 10px 15px; color: #fff;}
+
+.prod-link >.hover{background-color: #50a0ff; opacity: 0; transition: 0.3s;}
+.prod-link:hover{border-color: #50a0ff;}
+.prod-link:hover > .hover{opacity: 1; transition: 0.3s;}
+
+
+/* 상품 그리드 */
+
+.prod_sub{padding: 20px 0;}
+.pr_left{float: left;}
+.pr_left span{display: block;}
+
+.pr_right{float: right; font-weight: bold;letter-spacing: -1px;}
+
+.hide_prod{height: 40px;position: relative;}
+.hide_con{position: absolute;top: 20px;overflow: hidden;}
+.hide_con li{width: 50px; float: left; opacity: 0; transition: 0.3s;} /*transition : opacity 0.5s else-in-out*/
+.hide_con li img{max-width:100%;height: auto;}
+/*opacity 1부터 시작*/
+
+.prod_con:hover .hide_con li{opacity: 1; transition: 0.3s;}
+
+
+.sub_prod>li{padding: 40px 20px;}
+.sub_prod{border-top: 1px solid #e3e3e3;}
+.row>h3{padding: 10px 15px; font-weight: 600;}
+
+/* 로그인 폼 디자인 */
+.join-form{
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    border: 1px solid #777;
+    float: none; /* col 클래스에 적용된 float 해제 */
+    margin: 0 auto;
+    padding: 30px;
+    
+}
